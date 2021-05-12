@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono&display=swap");
+
+.title {
+  position: absolute;
+  width: 170px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+
+  font-family: Inconsolata sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.scarecrow {
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+  width: 539px;
+  height: 447px;
+}
+
+.title-left {
+  position: absolute;
+  width: 650px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.paragraph-left {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+  color: #4f4f4f;
+}
+
+.button-left {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Gray 1 */
+  background: #333333;
+}
+
+.footer {
+  position: absolute;
+  width: 226px;
+  height: 17px;
+  left: 657px;
+  top: 950px;
+  padding-bottom: 20px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #333333;
+}
+
+@media screen and (max-width: 640px) {
+  .title-left {
+    left: 20px;
+    top: 680px;
+    width: 500px;
+  }
+
+  .scarecrow {
+    width: 450px;
+    height: 390px;
+  }
+
+  .paragraph-left {
+    left: 20px;
+    top: 880px;
+  }
+
+  .button-left {
+    left: 20px;
+    top: 1050px;
+  }
+
+  .footer {
+    left: 33%;
+    top: 1200px;
+  }
+}
